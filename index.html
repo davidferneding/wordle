@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+
+<body>
+    <h1 id="title" align="center">Wordle</h1>
+    <div id="action-buttons" class="container" align="center">
+        <button id="btn-start-game" onclick="startGame();">Neues Spiel</button>
+        <button id="btn-load-game" onclick="loadGame();" disabled>Spiel laden</button>
+    </div>
+    <table class="container">
+        <tr id="row-1">
+            <td>
+                <form id="guess-1" onSubmit="guess(event, 1);">
+                    <input id="letter-1" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-2" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-3" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-4" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-5" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-6" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input type="submit" hidden />
+                </form>
+            </td>
+        </tr>
+        <tr id="row-2">
+            <td>
+                <form id="guess-2" onSubmit="guess(event, 2);">
+                    <input id="letter-1" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-2" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-3" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-4" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-5" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-6" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input type="submit" hidden />
+                </form>
+            </td>
+        </tr>
+        <tr id="row-3">
+            <td>
+                <form id="guess-3" onSubmit="guess(event, 3);">
+                    <input id="letter-1" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-2" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-3" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-4" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-5" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-6" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input type="submit" hidden />
+                </form>
+            </td>
+        </tr>
+        <tr id="row-4">
+            <td>
+                <form id="guess-4" onSubmit="guess(event, 4);">
+                    <input id="letter-1" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-2" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-3" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-4" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-5" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-6" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input type="submit" hidden />
+                </form>
+            </td>
+        </tr>
+        <tr id="row-5">
+            <td>
+                <form id="guess-5" onSubmit="guess(event, 5);">
+                    <input id="letter-1" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-2" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-3" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-4" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-5" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-6" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input type="submit" hidden />
+                </form>
+            </td>
+        </tr>
+        <tr id="row-6">
+            <td>
+                <form id="guess-6" onSubmit="guess(event, 6);">
+                    <input id="letter-1" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-2" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-3" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-4" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-5" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input id="letter-6" class="letter" disabled onkeyup="validateChar(this);" />
+                    <input type="submit" hidden />
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

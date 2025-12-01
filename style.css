@@ -1,0 +1,25 @@
+.letter {
+    width: 50 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+    border: 10 !important;
+}
+
+.letter[not-in-word] {
+    border-color: red;
+}
+
+.letter[in-word] {
+    border-color: blue;
+}
+
+td {
+    text-align: center !important;
+    border: none !important;
+    padding-bottom: 0 !important;
+}
+
+#action-buttons {
+    margin-bottom: 16;
+}
