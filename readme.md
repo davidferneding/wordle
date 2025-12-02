@@ -37,6 +37,11 @@ source venv/bin/activate
 pip install "fastapi[standard]"
 ```
 
+**Bei Berechtigungs-Problemen** durch eingeschränkte Umgebungen:
+```bash
+pip install --no-index --find-links fastapi "fastapi[standard]"
+```
+
 ### Projekt starten
 Nachdem alle Abhängigkeiten installiert wurden, kannst du das Projekt starten.
 
